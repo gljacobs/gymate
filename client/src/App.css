@@ -1,0 +1,153 @@
+body {
+  background: black;
+  color: white;
+}
+
+.btn {
+  color: black;
+  background-color: #FF3C00;
+  border-color: #FF3C00;
+  width: 100%;
+  font-family: 'MicroExtendFLF';
+  font-size: 30px;
+}
+
+a:hover{
+  color: orange;
+  border: orange;
+}
+
+/* Nav styling */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  color: rgb(255, 60, 0);
+  z-index: 100;
+  font-family: 'MicroExtentFLF';
+}   
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.title {
+  font-family: 'MicroExtendFLF';
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-left:1rem;
+  letter-spacing: 10px;
+  -webkit-animation: color-change 5s infinite;
+  -moz-animation: color-change 5s infinite;
+  -o-animation: color-change 5s infinite;
+  -ms-animation: color-change 5s infinite;
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  25% { color: orangered; }
+  50% { color: orange; }
+  75% { color: orangered; }
+  100% { color: red; }
+}
+
+.spacer {
+  flex: 1;
+}
+
+.nav-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-items li {
+  padding: 0 0.5rem;
+}
+
+.nav-item {
+  font-family: 'MicroExtendFLF';
+  color: orangered;
+  font-weight: 100;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.nav-item:hover,
+.nav-item:active {
+  color: orange;
+  border: 2px solid;
+  text-decoration: none;
+}
+
+
+
+/* Styling for forms */
+.signuplink {
+  color: #FF3C00;
+  font-family: 'MicroExtendFLF';
+}
+
+.label {
+  background-color: black;
+  color: grey;
+  border-color: #FF3C00;
+}
+
+.box{
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: black;
+  text-align: center;
+}
+.box h1{
+  color: orange;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'MicroExtendFLF';
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #FF3C00;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: orange;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid orange;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: orange;
+}
