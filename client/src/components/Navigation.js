@@ -12,10 +12,10 @@ function Navigation() {
         <div>
             <Navbar style={{ backgroundColor: "black" }} dark expand="md">
                 <NavbarBrand href="/">
-                    <img src={GM} style={{height: 40}}/>
+                    <img src={GM} style={{height: 45}}/>
                 </NavbarBrand>
                 <Nav className="mr-auto" navbar />
-                <NavLink className="text-danger" href="/pages/signIn">Sign-in</NavLink>
+                <NavLink className="text-danger" style={{fontWeight: "bold"}} href="/pages/signIn">Sign-in</NavLink>
             </Navbar>
         </div>
     );
