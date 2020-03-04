@@ -1,0 +1,25 @@
+#login {
+   position: relative;
+   top: 10vh;
+   width: 50vw;
+}
+
+#log-card {
+    background-color: black;
+    padding: 100px;
+}
+
+#login img{
+     width: 150px;   
+}
+
+#login h1 {
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 870px) {
+    #login {
+        width: 80vw;
+     }
+}
