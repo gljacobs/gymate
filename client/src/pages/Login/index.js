@@ -1,8 +1,9 @@
 import React from 'react';
-import {
-    Card, Button, CardText,
+import { Link } from 'react-router-dom';
+import { Card, Button, CardText,
     CardTitle
 } from 'reactstrap';
+
 import './style.css';
 import logo from '../../PERSON.png'
 
@@ -12,7 +13,9 @@ function Login() {
             <Card body id="log-card" className="text-center text-light">
                 <CardText><img src={logo}/></CardText>
                 <CardTitle tag="h1">Commit to be Fit.</CardTitle>
-                <Button className="btn-danger" size="lg">Sign Up</Button>
+                <Link to="/signup">
+                    <Button className="btn-danger" size="lg">Sign Up</Button>
+                </Link>
             </Card>
         </div>
     );

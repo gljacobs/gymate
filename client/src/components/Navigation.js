@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
     Navbar,
     NavbarBrand,
@@ -17,8 +18,10 @@ function Navigation() {
         <div>
             <Navbar style={{ backgroundColor: "black" }} dark expand="md">
                 <Container>
-                    <NavbarBrand href="/">
-                        <img src={GM} style={{ height: 45 }} />
+                    <NavbarBrand>
+                        <Link to="/">
+                            <img src={GM} style={{ height: 45 }} />
+                        </Link>
                     </NavbarBrand>
                     <Nav className="mr-auto" navbar />
                     <Form className="navform" inline>

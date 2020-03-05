@@ -4,7 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("./landing-gymate.jpg");
-  background-size: 100% 150%; 
+  background-size: 100%; 
 }
 
 code {
