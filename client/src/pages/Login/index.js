@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-    Card, Button, CardText, CardBody, CardLink,
-    CardTitle, CardSubtitle
+    Card, Button, CardText,
+    CardTitle
 } from 'reactstrap';
 import './style.css';
 import logo from '../../PERSON.png'
@@ -12,7 +12,7 @@ function Login() {
             <Card body id="log-card" className="text-center text-light">
                 <CardText><img src={logo}/></CardText>
                 <CardTitle tag="h1">Commit to be Fit.</CardTitle>
-                <Button className="btn-danger">Sign Up</Button>
+                <Button className="btn-danger" size="lg">Sign Up</Button>
             </Card>
         </div>
     );

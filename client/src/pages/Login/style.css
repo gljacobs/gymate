@@ -1,12 +1,12 @@
 #login {
    position: relative;
    top: 10vh;
-   width: 50vw;
+   width: 600px;
 }
 
 #log-card {
     background-color: black;
-    padding: 100px;
+    padding: 50px 25px 80px 25px;
 }
 
 #login img{
@@ -14,12 +14,15 @@
 }
 
 #login h1 {
-    font-size: 4vw;
+    font-size: 65px;
     font-weight: bold;
 }
 
 @media screen and (max-width: 870px) {
     #login {
-        width: 80vw;
+        width: 90vw;
      }
+     #login h1 {
+        font-size: 40px;
+    }
 }
