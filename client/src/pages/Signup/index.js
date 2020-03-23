@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {
-    Card,
-    CardTitle, Col, Row, Button, Form, FormGroup, Label, Input
-} from 'reactstrap';
+import { Card, CardTitle, Col, Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import './style.css'
 
 function Signup() {
@@ -22,7 +19,7 @@ function Signup() {
                         <Col md={3}>
                             <FormGroup>
                                 <Label for="sign-lname">Last Name</Label>
-                                <Input type="text" name="lname" id="lname" placeholder="Last Name" />
+                                <Input type="text" name="lname" id="lname" placeholder="Last Name" required />
                             </FormGroup>
                         </Col>
                     </Row>
@@ -30,7 +27,7 @@ function Signup() {
                         <Col md={{size: 6, offset: 3}}>
                             <FormGroup>
                                 <Label for="exampleEmail">Email</Label>
-                                <Input type="sign-email" name="email" id="sign-email" placeholder="Please use a valid Email" />
+                                <Input type="sign-email" name="email" id="sign-email" placeholder="Please use a valid Email" required/>
                             </FormGroup>
                         </Col>
                     </Row>
@@ -38,13 +35,13 @@ function Signup() {
                         <Col md={{size: 3, offset: 3}}>
                             <FormGroup>
                                 <Label for="sign-pass">Password</Label>
-                                <Input type="password" name="sign-pass" id="sign-pass" placeholder="New Password" />
+                                <Input type="password" name="sign-pass" id="sign-pass" placeholder="New Password" required/>
                             </FormGroup>
                         </Col>
                         <Col md={3}>
                             <FormGroup>
                                 <Label for="examplePassword">Password</Label>
-                                <Input type="password" name="verify-pass" id="verify-pass" placeholder="Verify Password" />
+                                <Input type="password" name="verify-pass" id="verify-pass" placeholder="Verify Password" required/>
                             </FormGroup>
                         </Col>
                     </Row>
@@ -56,6 +53,7 @@ function Signup() {
                                     type="date"
                                     name="date"
                                     id="birthDate"
+                                    placeholder="MM/DD/YYYY"
                                 />
                             </FormGroup>
                         </Col>
