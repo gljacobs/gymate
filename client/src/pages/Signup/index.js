@@ -27,7 +27,7 @@ function Signup() {
                         <Col md={{size: 6, offset: 3}}>
                             <FormGroup>
                                 <Label for="exampleEmail">Email</Label>
-                                <Input type="sign-email" name="email" id="sign-email" placeholder="Please use a valid Email" required/>
+                                <Input type="sign-email" name="email" id="sign-email" placeholder="Enter Valid Email" required/>
                             </FormGroup>
                         </Col>
                     </Row>
@@ -61,7 +61,7 @@ function Signup() {
                         <Button>Sign Up</Button>
                 </Form>
                 <br />
-                <Link to="/">Return to Login</Link>
+                <Link to="/">Return to Home</Link>
             </Card>
         </div>
             );
