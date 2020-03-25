@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 
 class App extends React.Component {
+
     render() {
         return (
             <Router>
