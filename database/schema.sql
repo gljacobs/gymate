@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS ezlogin_db;
-CREATE DATABASE ezlogin_db;
+DROP DATABASE IF EXISTS gymate_db;
+CREATE DATABASE gymate_db;
 
-USE ezlogin_db;
+USE gymate_db;

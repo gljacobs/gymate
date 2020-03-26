@@ -19,6 +19,10 @@ class Signup extends React.Component {
         this.setState({ [name]: value });        
     }
 
+    handleSignup = () => {
+        
+    }
+
     render() {
         return (
             <div id="signup" className="container">

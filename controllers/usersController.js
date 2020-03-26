@@ -37,6 +37,7 @@ module.exports = {
                 name: req.body.name,
                 email: req.body.email,
                 password: hash,
+                birthday: req.body.date
             })
                 .then(function (response) {
                     res.sendStatus(200)
