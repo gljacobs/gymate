@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Card, Button, CardText,
-    CardTitle
-} from 'reactstrap';
+import { Card, Button, CardText, CardTitle } from 'reactstrap';
 
 import './style.css';
 import logo from '../../PERSON.png'
